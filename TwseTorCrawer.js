@@ -260,7 +260,6 @@ function startCrawer(){
          startDate = moment();
          // var ttc = new TwseTorCrawer(port, stackNo, 'stocks/' + stackNo +'/',startYear, endYear);
          var ttc = new TwseTorCrawer(port, stackNo, 'stocks/' + stackNo +'/', timeMethod="DescFromNow");
-         ttc.getIP();
          if (stackNo<stockEnd){
             // l(fa);
             stackNo+=1;
@@ -271,6 +270,7 @@ function startCrawer(){
             }
             return;
          }
+         ttc.getIP();
       }else{
          stackNo++;
          getOneStock();
