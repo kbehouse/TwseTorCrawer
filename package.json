@@ -1,0 +1,22 @@
+{
+  "name": "twse",
+  "version": "0.0.1",
+  "description": "Get taiwan stock data from TWSE",
+  "main": "price.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartik, Chen",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "rmdir-sync": "^1.0.1",
+    "sleep": "^6.0.0",
+    "socks5-http-client": "^1.0.4",
+    "socks5-https-client": "^1.2.1",
+    "tor-request": "^3.0.1",
+    "tree-kill": "^1.2.1"
+  }
+}
