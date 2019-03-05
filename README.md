@@ -5,7 +5,7 @@ Crawler for TWSE (TaiWan Stock Exchange)
 ## Install
 
 ```
-yarn install
+yarn
 ```
 ## Get all stock number
 
